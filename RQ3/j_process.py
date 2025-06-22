@@ -682,7 +682,7 @@ def run_rf_model(
 
     print(f"RF Validation Scores -> Accuracy: {results['accuracy']:.4f}, Precision: {results['precision']:.4f}, Recall: {results['recall']:.4f}, F1: {results['f1_score']:.4f}")
     return results
-def run_mca(train,features,n_components=27,random_state=42):
+def run_mca(train,features=None,n_components=27,random_state=42):
     mset = train
  
 
